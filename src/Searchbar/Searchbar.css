@@ -70,3 +70,12 @@ li.selected {
 li:last-child {
     border-bottom: none;
 }
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 6px; /* Adjust the left position as needed */
+    transform: translateY(-50%);
+    color: #999; /* Icon color */
+    pointer-events: none; /* Ensure the icon does not capture pointer events */
+}
