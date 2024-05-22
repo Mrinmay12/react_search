@@ -84,6 +84,9 @@ const Searchbar = () => {
         onKeyDown={handleKeyDown}
         placeholder="Search..."
       />
+         <div className="search-icon">
+        <i class="fa fa-search"></i>
+            </div>
       {results.length > 0 && (
         <div className="dropdown">
           <ul>
